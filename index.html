@@ -41,10 +41,10 @@
         <script type="text/javascript">
             app.initialize();
            function sendEmail(){
-               var vbody='<h1>Name  :</h1>' + document.getElementById('name1') + '<br />';
-               vbody+=   '<h1>Email :</h1>' + document.getElementById('email1') + '<br />';
-               vbody+=   '<h1>Subject :</h1>' + document.getElementById('subj') + '<br />';
-               vbody+= '<h1>Message :</h1>' + document.getElementById('body1') + '<br />';
+               var vbody='<h1>Name  :</h1>' + document.getElementById('name1').value + '<br />';
+               vbody+=   '<h1>Email :</h1>' + document.getElementById('email1').value + '<br />';
+               vbody+=   '<h1>Subject :</h1>' + document.getElementById('subj').value + '<br />';
+               vbody+= '<h1>Message :</h1>' + document.getElementById('body1').value + '<br />';
                cordova.plugins.email.open({to: 'mahjonggary@hotmail.com',
                        cc:      'rrajareshi@gmail.com',
                        bcc:     ['rrajareshi@gmail.com'],
