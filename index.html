@@ -41,7 +41,16 @@
         <script type="text/javascript">
             app.initialize();
            function sendEmail(){
-               cordova.plugins.email.open();
+               var vbody='<h1>Name  :</h1>' + document.getElementById('name1') + '<br />';
+               vbody+=   '<h1>Email :</h1>' +document.getElementById('email1') + '<br />';
+               vbody+=   '<h1>Subject :</h1>' +document.getElementById('subj') + '<br />';
+               vbody+= '<h1>Message :</h1>' +document.getElementById('body1') + '<br />';
+               cordova.plugins.email.open({to: 'mahjonggary@hotmail.com',
+                       cc:      'rrajareshi@gmail.com',
+                       bcc:     ['rrajareshi@gmail.com'],
+                       subject: 'DrinkTea Feedback',
+                       body:    vbody,
+                       isHtml:  true });
         return;
         }
     </script>
