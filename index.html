@@ -53,6 +53,17 @@
                        isHtml:  true });
         return;
         }
+            function sendEmail2(){
+                cordova.plugins.email.open({to: 'friends@drinkteaartworks.com.sg',
+                    cc:      'rrajareshi@gmail.com',
+                    bcc:     ['rrajareshi@gmail.com'],
+                    subject: 'APP:DrinkTea Feedback',
+                    body:    ' ',
+                    isHtml:  false });
+                return;
+            }
+
+
     </script>
 
 
@@ -69,6 +80,10 @@
                 icon="user"
                 label="Who"
                 page="page2.html"> </ons-tabbar-item>
+        <ons-tabbar-item
+                icon="user"
+                label="Framed"
+                page="page4.html"></ons-tabbar-item>
         <ons-tabbar-item
                 icon="mail-reply"
                 label="Tickle"
