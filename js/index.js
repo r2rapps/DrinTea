@@ -37,6 +37,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         alert('device ready  received');
+        facebookConnectPlugin.browserInit(1657190987851229);
     },
 
 
