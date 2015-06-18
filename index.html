@@ -65,14 +65,12 @@
 
             facebookConnectPlugin.browserInit(1657190987851229);
             function tts2() { alert('called');
-                var fbLoginSuccess = function (userData) {
-                    alert("UserInfo: " + JSON.stringify(userData));
-                    facebookConnectPlugin.getAccessToken(function (token) {
-                        alert("Token: " + token);
-                    }, function (err) {
-                        alert("Could not get access token: " + err);
-                    });
+                var getAccessToken = function () {
+                    facebookConnectPlugin.getAccessToken(
+                            function (response) { alert('suc'+JSON.stringify(response)); },
+                            function (response) { alert('fai'+JSON.stringify(response)); });
                 }
+                alert('ddone');
             }
     </script>
 
