@@ -229,9 +229,21 @@ h1 {
 
 .photo {
     /*background-position: 50% 50%;*/
+    width: 140px;
+    height: 110px;
     overflow: hidden;
     float: left;
     margin: 5px;
     border: 3px solid white;
     box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+    vertical-align: middle;
+    text-align: center;
+}
+.imsgsrc {
+    /*background-position: 50% 50%;*/
+    height: auto;
+    max-width:100%;
+    vertical-align: middle;
+
+
 }
