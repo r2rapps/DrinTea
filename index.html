@@ -45,9 +45,9 @@
                vbody+=   '<h1>Email :</h1>' + document.getElementById('email1').value + '<br />';
                vbody+=   '<h1>Subject :</h1>' + document.getElementById('subj').value + '<br />';
                vbody+= '<h1>Message :</h1>' + document.getElementById('body1').value + '<br />';
-               cordova.plugins.email.open({to: 'mahjonggary@hotmail.com',
-                       cc:      'rrajareshi@gmail.com',
-                       bcc:     ['rrajareshi@gmail.com'],
+               cordova.plugins.email.open({to: 'friends@drinkteaartworks.com.sg',
+                       cc:      'friends@drinkteaartworks.com.sg',
+                       bcc:     ['friends@drinkteaartworks.com.sg'],
                        subject: 'APP:DrinkTea Feedback',
                        body:    vbody,
                        isHtml:  true });
@@ -55,8 +55,8 @@
         }
             function sendEmail2(){
                 cordova.plugins.email.open({to: 'friends@drinkteaartworks.com.sg',
-                    cc:      'rrajareshi@gmail.com',
-                    bcc:     ['rrajareshi@gmail.com'],
+                    cc:      'friends@drinkteaartworks.com.sg',
+                    bcc:     ['friends@drinkteaartworks.com.sg'],
                     subject: 'APP:DrinkTea Feedback',
                     body:    ' ',
                     isHtml:  false });
