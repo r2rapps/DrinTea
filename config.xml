@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.uneed" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.uneed" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>DrinkTea</name>
     <description> ARTWORK</description>
     <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
@@ -57,6 +57,8 @@
     <icon gap:platform="ios" height="180" src="./img/logo_180.png" width="180" />
     <icon gap:platform="ios" height="57" src="./img/logo_57.png" width="57" />
     <icon gap:platform="ios" height="72" src="./img/logo_72.png" width="72" />
+    <icon gap:platform="ios" height="76" src="./img/logo_76.png" width="76" />
+    <icon gap:platform="ios" height="152" src="./img/logo_152.png" width="152" />
     <icon gap:platform="webos" src="www/res/icon/webos/icon-64.png" />
     <icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
     <icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
